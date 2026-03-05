@@ -1,36 +1,56 @@
-/* General Body Styling */
-body {
-    text-align: center;
+body{
+background-color:black;
+color:white;
+font-family:Arial, Helvetica, sans-serif;
 }
 
-/* Profile Image (for homepage) */
-.profile-pic {
-    width: 275px;
-    height: 275px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 6px solid #00d4ff;
-    box-shadow: 0 0 25px rgba(0, 212, 255, 0.6);
-    transition: transform 0.3s ease;
+/* HERO SECTION */
+
+.hero{
+text-align:center;
+margin-top:80px;
 }
 
-.profile-pic:hover {
-    transform: scale(1.05);
+.title{
+font-size:60px;
+font-weight:700;
+margin-bottom:30px;
 }
 
-/* Improve text readability on dark theme */
-p {
-    font-size: 1.1rem;
-    color: #f8f9fa;
+.quote{
+font-size:22px;
+margin-bottom:40px;
 }
 
-/* Headings */
-h1 {
-    color: #ffffff;
-    font-weight: 700;
+/* PROFILE IMAGE */
+
+.profile-pic{
+width:300px;
+height:300px;
+border-radius:15px;
+object-fit:cover;
+display:block;
+margin:0 auto;
 }
 
-/* Add spacing */
-.container {
-    max-width: 800px;
+/* NAVBAR BUTTONS */
+
+.nav-btn{
+color:#00d4ff;
+margin-left:20px;
+font-size:18px;
+text-decoration:none;
+}
+
+.nav-btn:hover{
+color:white;
+}
+
+/* NAME GLOW */
+
+.name-glow{
+border:3px solid #00d4ff;
+padding:6px 18px;
+border-radius:30px;
+box-shadow:0 0 12px #00d4ff;
 }
