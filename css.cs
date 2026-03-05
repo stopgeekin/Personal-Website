@@ -1,44 +1,36 @@
-.nav-btn {
-    background-color: #00bcd4;
-    color: #000 !important;
-    padding: 8px 18px;
-    border-radius: 8px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: 0.2s ease-in-out;
+/* General Body Styling */
+body {
+    text-align: center;
 }
 
-.nav-btn:hover {
-    background-color: #00e5ff;
-    color: #000 !important;
-}
-
-.resume-btn {
-    background-color: #ffc107;
-    color: #000 !important;
-    padding: 8px 18px;
-    border-radius: 8px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: 0.2s ease-in-out;
-}
-
-.resume-btn:hover {
-    background-color: #ffd54f;
-    color: #000 !important;
-}
-
-.profile-img {
-    width: 200px;
-    height: 200px;
+/* Profile Image (for homepage) */
+.profile-pic {
+    width: 275px;
+    height: 275px;
     object-fit: cover;
     border-radius: 50%;
-    border: 4px solid #00bcd4;
-    box-shadow: 0 0 25px rgba(0, 188, 212, 0.4);
+    border: 6px solid #00d4ff;
+    box-shadow: 0 0 25px rgba(0, 212, 255, 0.6);
+    transition: transform 0.3s ease;
 }
 
-.tagline {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #00e5ff;
+.profile-pic:hover {
+    transform: scale(1.05);
+}
+
+/* Improve text readability on dark theme */
+p {
+    font-size: 1.1rem;
+    color: #f8f9fa;
+}
+
+/* Headings */
+h1 {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* Add spacing */
+.container {
+    max-width: 800px;
 }
