@@ -33,7 +33,7 @@ display:block;
 margin:0 auto;
 }
 
-/* NAVBAR BUTTONS */
+/* NAV BUTTONS */
 
 .nav-btn{
 color:#00d4ff;
@@ -44,6 +44,22 @@ text-decoration:none;
 
 .nav-btn:hover{
 color:white;
+}
+
+/* RESUME BUTTON */
+
+.resume-btn{
+background:#00d4ff;
+color:black;
+padding:6px 16px;
+border-radius:20px;
+text-decoration:none;
+font-weight:600;
+}
+
+.resume-btn:hover{
+background:white;
+color:black;
 }
 
 /* NAME GLOW */
